@@ -31,10 +31,10 @@ button#btn_cerca{
 }
 
 /* miniature - card */
-div.card:hover {
+div#miniature div.card:hover {
     transform: scale(1.05);
 }
-div.card {
+div#miniature div.card {
     transition: transform 0.3s ease;
 }
 
@@ -71,21 +71,32 @@ h1.titoloModaleDettagli {
     display: -webkit-box;          /* Utilizzo del modello a box flessibili */
     -webkit-line-clamp: 1;         /* Limita a due righe il testo */
     -webkit-box-orient: vertical;  /* Imposta l'orientamento del box */
+    font-size: 25px;
 }
 
 h1.titoloModaleDettagli > span {
     font-weight: 100;
-    font-style: italic;
+    font-style: italic;    
 }
 
 img.imgDiModaleDettagli {
     height: 345px;
-    width: 100%;
-    object-fit: contain; /*contain*/
+    width: 100%;    
 }
 
 div.sinossiDiModaleDettagli {
     font-size: 20px;
     height: 345px;
     overflow-y: auto;
+    text-align: left;
+}
+
+#zonaCommentiUtente {
+    height: 345px;
+    overflow-y: auto;
+    border-bottom: 1px lightgray solid;    
+}
+
+div#zonaCommentiUtente span {
+    color: gray;
 }
