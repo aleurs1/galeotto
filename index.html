@@ -21,9 +21,13 @@
 
     <!-- script per vedere i tooltip di bootstrap -->
     <script defer>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));        
-    </script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script> 
 
 </head>
 
@@ -95,7 +99,7 @@
                         Libro
                     </label>
                 </div>
-                <div class="form-check" data-bs-toggle="tooltip" data-bs-placement="top" title="Libro presente in www.medialibrary.it">
+                <div class="form-check" data-bs-toggle="tooltip" data-bs-placement="right" title="Libro presente su www.medialibrary.it">
                     <input class="form-check-input" type="checkbox" value="" id="cb_ebook">
                     <label class="form-check-label" for="cb_ebook">
                         MLOL
@@ -297,6 +301,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+      
     
 </body>
 
