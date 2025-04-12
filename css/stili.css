@@ -1,6 +1,7 @@
 /* barra di intestazione */
-#logo_curie, #logo_biblio {
+#logo_curie {
     width: 75px;
+    margin-top: 11px;
 }
 
 /* titolo */
@@ -99,4 +100,15 @@ div.sinossiDiModaleDettagli {
 
 div#zonaCommentiUtente span {
     color: gray;
+}
+
+/* footer */
+div#footer {
+    margin-top: 50px;        
+}
+div#footer div.row {
+    padding: 15px;
+}
+div#footer p {
+    margin-bottom: 0px;
 }
