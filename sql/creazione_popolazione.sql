@@ -3548,3 +3548,8 @@ VALUES (
     (SELECT id FROM gal_libri WHERE titolo = 'Nel mare ci sono i coccodrilli'),
     (SELECT id FROM gal_autori WHERE nominativo = 'Akbari Enaiatollah')
 );
+
+-- rinomino tutti i file copertina
+UPDATE GAL_libri
+SET urlCopertina = REPLACE(urlCopertina, '.png', '.jpeg')
+WHERE urlCopertina LIKE '%.png';
