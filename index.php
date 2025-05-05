@@ -106,66 +106,51 @@
 
     <!-- miniature -->
     <div class="container text-center" id="miniature">
-        <div class="row">
-            <div class="col">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">
-                    <div class="card">
-                        <img src="img/copertina1.jpg" class="card-img-top imgDiCard" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title maxDueRighe">Le pagine della nostra vita</h5>
-                            <p class="card-text maxDueRighe">Nicholas Sparks</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">
-                    <div class="card">
-                        <img src="img/copertina2.jpg" class="card-img-top imgDiCard" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title maxDueRighe">101 storie zen</h5>
-                            <p class="card-text maxDueRighe">Nyogen Senzaki <br> Paul Reps </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">
-                    <div class="card">
-                        <img src="img/copertina3.jpg" class="card-img-top imgDiCard" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title maxDueRighe">Il codice da Vinci</h5>
-                            <p class="card-text maxDueRighe">Dan Brown</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">
-                    <div class="card">
-                        <img src="img/copertina4.jpg" class="card-img-top imgDiCard" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title maxDueRighe">Magia</h5>
-                            <p class="card-text maxDueRighe">W. B. Yeats</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#modal_dettagli">
-                    <div class="card">
-                        <img src="img/copertina5.jpg" class="card-img-top imgDiCard" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title maxDueRighe">Storia di una famiglia e di una impresa Storia di una
-                                famiglia e di una impresa</h5>
-                            <p class="card-text maxDueRighe">Grimaldi Armatori Grimaldi Armatori Grimaldi Armatori
-                                Grimaldi
-                                Armatori</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
+        <?php
+            // faccio una richiesta HTTP GET all'endpoint indicato, ricevo una stringa
+            $risposta = file_get_contents("http://localhost/galeotto/get_libri.php");
+
+            // decodifico la stringa in un json
+            $libri = json_decode($risposta, true);
+
+            // gestisco l'errore
+            if (!$libri) {
+                echo "<p>Nessun libro trovato.</p>";
+                /*exit;*/
+            }
+
+            // metto a video tutti i libri
+            $i=0;
+            foreach ($libri as $libro) {
+                // apro una row ogni 5 libri
+                if ($i%5==0) {
+                    echo "<div class='row'>";
+                }
+                
+                // tramuto li vettore associativo in variabili
+                $id = $libro['id'];
+                $urlCopertina = $libro['urlCopertina'];
+                $titolo = $libro['titolo'];
+                $autore = $libro['autore'];
+                echo "<div class='col mb-5' id='$id'>";
+                echo "<a href='#' data-bs-toggle='modal' data-bs-target='#modal_dettagli'>";
+                echo "<div class='card'>";
+                echo "<img src='img/copertine/$urlCopertina' class='card-img-top imgDiCard' alt='...'>";
+                echo "<div class='card-body'>";
+                echo "<h5 class='card-title maxDueRighe'>$titolo</h5>";
+                echo "<p class='card-text maxDueRighe'>$autore</p>";
+                echo "</div></div></a></div>";
+                echo "\n";
+
+                // chiudo la row ogni libri
+                if ($i%5==4) {
+                    echo "</div>";
+                }
+
+                // ho aggiunto un libro
+                $i++;
+            }
+        ?>
     </div>
 
     <!-- footer -->
