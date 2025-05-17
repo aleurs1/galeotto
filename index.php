@@ -29,6 +29,30 @@
         });
     </script> 
 
+    <!-- collego lo script per selezionare i libri in base ai valori immessi -->
+    <script src="js/filtralibri.js">
+function filtralibri(event) {
+    alert("ciao");
+    
+    // impediamo il comportamento predefinito del form cioè eseguire uno script php
+    event.preventDefault();
+
+    // prendo un riferimento al mio form
+    const form event.target; 
+
+    // creo un vettore associativo con tutti i campi del form
+    const datiForm = new FormData(form);
+        //datiForm["titolo"]="La divina commedia"
+
+    // convertiamo il mio dataform in una stringa per URL (es "autore=dante&titolo=ciaociao")
+    const queryString = new URLSearchParams(datiForm).toString();
+
+    alert(queryString);
+
+}
+
+    </script>
+
     <!-- accesso tramite google -->
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="js/acessogoogle.js"></script>
@@ -41,7 +65,7 @@
 
     <!-- ricerca -->
     <div class="container-sm bg-body-tertiary rounded shadow" id="barraRicerca">
-        <form class="row">
+        <form class="row" method="get" id="mioform">
             <div class="col-3">
                 <label class="form-label ricerca_label" for="edt_autore">Autore</label>
                 <div class="input-group">
@@ -50,7 +74,7 @@
                             history_edu
                         </span>
                     </div>
-                    <input type="text" class="form-control" id="edt_autore" placeholder="Inserisci un autore">
+                    <input type="text" class="form-control" id="edt_autore" placeholder="Inserisci un autore" name="autore">
                 </div>
             </div>
             <div class="col-3">
@@ -61,7 +85,7 @@
                             menu_book
                         </span>
                     </div>
-                    <input type="text" class="form-control" id="edt_titolo" placeholder="Inserisci un titolo">
+                    <input type="text" class="form-control" id="edt_titolo" placeholder="Inserisci un titolo" name="titolo">
                 </div>
             </div>
             <div class="col-3">
@@ -73,32 +97,32 @@
                         </span>
                     </div>
                     <input type="text" class="form-control" id="edt_parolachiave"
-                        placeholder="Inserisci una parola chiave">
+                        placeholder="Inserisci una parola chiave" name="parolachiave">
                 </div>
             </div>
 
             <div class="col-1">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="cb_libri" checked="checked">
+                    <input class="form-check-input" type="checkbox" value="" id="cb_libri" checked="checked" name="libri">
                     <label class="form-check-label" for="cb_libri">
                         Libro
                     </label>
                 </div>
                 <div class="form-check" data-bs-toggle="tooltip" data-bs-placement="right" title="Libro presente su www.medialibrary.it">
-                    <input class="form-check-input" type="checkbox" value="" id="cb_ebook">
+                    <input class="form-check-input" type="checkbox" value="" id="cb_ebook" name="ebook">
                     <label class="form-check-label" for="cb_ebook">
                         MLOL
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="cb_film">
+                    <input class="form-check-input" type="checkbox" value="" id="cb_film" name="film">
                     <label class="form-check-label" for="cb_film">
                         Film
                     </label>
                 </div>
             </div>
             <div class="col-2" style="text-align: center">
-                <button type="button" class="btn btn-success btn-lg " id="btn_cerca">Cerca</button>
+                <button type="submit" class="btn btn-success btn-lg " id="btn_cerca">Cerca</button>
             </div>
 
         </form>
@@ -106,7 +130,12 @@
 
     <!-- miniature -->
     <div class="container text-center" id="miniature">
+        <script>
+            document.getElementById('mioform').addEventListener('submit', filtralibri);
+        </script>
         <?php
+            
+    /*
             // faccio una richiesta HTTP GET all'endpoint indicato, ricevo una stringa
             $risposta = file_get_contents("http://localhost/galeotto/get_libri.php");
 
@@ -116,7 +145,7 @@
             // gestisco l'errore
             if (!$libri) {
                 echo "<p>Nessun libro trovato.</p>";
-                /*exit;*/
+                //exit;
             }
 
             // metto a video tutti i libri
@@ -150,6 +179,7 @@
                 // ho aggiunto un libro
                 $i++;
             }
+*/
         ?>
     </div>
 
