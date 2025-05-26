@@ -4,6 +4,7 @@
     margin-top: 11px;
 }
 
+
 /* titolo */
 .inspiration {
     font-family: "Inspiration", serif;
@@ -32,6 +33,14 @@ button#btn_cerca{
 }
 
 /* miniature - card */
+div#miniature p {
+    font-size: larger;
+}
+
+div#miniature div.row:last-child .col {
+    max-width: 270px;    
+}
+
 div#miniature div.card:hover {
     transform: scale(1.05);
 }

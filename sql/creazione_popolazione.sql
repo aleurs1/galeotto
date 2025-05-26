@@ -75,7 +75,7 @@ create table GAL_libriConAutori(
 ) engine=innodb;
 
 
-use galeotto;
+
 
 -- svuoto tutte le tabelle
 delete from GAL_autori;
@@ -723,9 +723,9 @@ INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (6,
 INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (7, 'Fat boy swim', 0, 'I Morlevent sono tre: un maschio e due femmine. Orfani da poche ore. Hanno giurato di non separarsi mai. I tre Morlevent non hanno nessuna intenzione di affidare il loro futuro alla prima assistente sociale che passa. Il loro obiettivo è lasciare l''orfanotrofio dove sono stati parcheggiati e trovare una famiglia. Al momento, solo due persone  potrebbero accettare di adottarli. Per delle ottime ragioni. Per delle tremende ragioni. Una delle due non brilla per simpatia, l''altro è irresponsabile e... ah, in più si detestano.', 0, 'copertina007.jpeg');
 INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (8, 'Il principe della nebbia', 0, '1943: il padre di Max decide di trasferire la famiglia sulla costa spagnola, per proteggerla dalla guerra. La nuova casa sembra tranquilla ma, appena arrivato, Max scopre  un giardino disseminato di statue inquietanti e non tarda a sapere della misteriosa scomparsa del figlio dei precedenti proprietari. Insieme alla sorella Alicia eall''amico Roland, Max comincia a indagare sulla storia di un oscuro naufragio e di un''ombra luciferina che emerge nel cuore della notte per scomparire con le prime nebbie dell''alba...', 0, 'copertina008.jpeg');
 INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (9, 'Le luci di settembre', 0, 'Durante l''estate del 1937 Simone Sauvelle, rimasta all''improvviso vedova, abbandona Parigi assieme ai figli, Irene e Dorian, e si trasferisce in un piccolo paese sulla costa per sfuggire agli ingenti debiti accumulati dal marito. Trova lavoro come governante per il facoltoso fabbricante di giocattoli Lazarus Jann in una gigantesca  magione chiamata Cravenmoore. Tutto sembra andare per il meglio. Lazarus si dimostra un uomo gradevole, tratta con riguardo Simone e i figli, a cui mostra gli strani  esseri meccanici che ha creato, mentre Irene si innamora di Ismael, il cugino di Hannah, la cuoca della casa. Ma eventi macabri e strane apparizioni sconvolgono  l''armonia di Cravenmoore. Spetterà a Irene e Ismael lottare contro un nemico invisibile per salvare Simone e svelare l''oscuro segreto che avvolge la fabbrica dei  giocattoli, un enigma che li unirà per sempre e litrascinerà nella più emozionante delle avventure in un mondo labirintico di luci e ombre.', 0, 'copertina009.jpeg');
-INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (10, 'L’erede di Hastur ', 0, 'Marion Zimmer Bradley Nella magica e remota terra di Darkover, gli abitanti hanno imparato a usare i poteri delle pietre matrici per potenziare al massimo le capacità della loro mente. Dopo secoli di guerre che hanno segnato le Ere del Caos, è stato stipulato un patto solenne che impedisce l''uso delle matrici come armi. Ma l''arrivo dei terrestri, dopo millenni  di isolamento, minaccia la stabilità del rigoroso ordine feudale del pianeta e rischia di mettere a repentaglio il potere delle sette famiglie che lo popolano. Ai Comyn, casta  dominante di Darkover, non resta che sperare che Regis Hastur, nipote del leggendario Hastur, Signore della Luce, possa in qualche modo imporre la suaautorità sui terrestri salvaguardando, così, la pace su Darkover.', 0, 'copertina010.jpeg');
+INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (10, 'L’erede di Hastur', 0, 'Nella magica e remota terra di Darkover, gli abitanti hanno imparato a usare i poteri delle pietre matrici per potenziare al massimo le capacità della loro mente. Dopo secoli di guerre che hanno segnato le Ere del Caos, è stato stipulato un patto solenne che impedisce l''uso delle matrici come armi. Ma l''arrivo dei terrestri, dopo millenni  di isolamento, minaccia la stabilità del rigoroso ordine feudale del pianeta e rischia di mettere a repentaglio il potere delle sette famiglie che lo popolano. Ai Comyn, casta  dominante di Darkover, non resta che sperare che Regis Hastur, nipote del leggendario Hastur, Signore della Luce, possa in qualche modo imporre la suaautorità sui terrestri salvaguardando, così, la pace su Darkover.', 0, 'copertina010.jpeg');
 INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (11, 'Sempre tornare', 0, 'È l''estate del 1991, Daniele ha diciassette anni e questa è la sua prima vacanza da solo con gli amici. Due settimane lontano da casa, da vivere al massimo tra spiagge, discoteche, alcol e ragazze. Ma c''è qualcosa con cui non ha fatto i conti: se stesso. È sufficiente un piccolo inconveniente nella notte di Ferragosto perché Daniele decida  di abbandonare il gruppo e continuare il viaggio a piedi, da solo, dalla Riviera Romagnola in direzione Roma: forse riuscirà a comprendere la ragione dell''inquietudine che da sempre lo punge e lo sollecita. Troverà chi è logorato dalla solitudine ma ancora capace di slanci, chi si affaccia su un abisso di follia, sconfitti dalla vita, prepotenti  inguaribili. E incontrerà l''amore, negliocchi azzurri di Emma. Ma soprattutto Daniele incontrerà se stesso.', 1, 'copertina011.jpeg');
-INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (12, 'Lo specchio dei desideri ', 0, 'Jonathan Coe Un giorno la piccola Claire, sottraendosi ai genitori litigiosi, si rifugia nella discarica dietro casa, dove trova uno specchietto rotto dal quale si sente stranamente attratta. È un brutto pezzo di vetro tagliente, ma ha il magico potere di trasformare anche la più squallida realtà in un mondo fiabesco: il cielo bigio nel riflesso diventa azzurro  paradiso e la casa di Claire, una modesta villetta di periferia, si trasforma in un castello. Intanto il tempo passa e Claire cresce, sempre accompagnata dal suo specchio  magico, in cui può vedere una realtà migliorata. Quello specchio creasolo illusioni e Claire, arrabbiata, sta quasi per buttarlo, quandointerviene Peter, un ex compagno delle medie, anche lui in possesso di un frammento dello specchio…', 0, 'copertina012.jpeg');
+INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (12, 'Lo specchio dei desideri', 0, 'Un giorno la piccola Claire, sottraendosi ai genitori litigiosi, si rifugia nella discarica dietro casa, dove trova uno specchietto rotto dal quale si sente stranamente attratta. È un brutto pezzo di vetro tagliente, ma ha il magico potere di trasformare anche la più squallida realtà in un mondo fiabesco: il cielo bigio nel riflesso diventa azzurro  paradiso e la casa di Claire, una modesta villetta di periferia, si trasforma in un castello. Intanto il tempo passa e Claire cresce, sempre accompagnata dal suo specchio  magico, in cui può vedere una realtà migliorata. Quello specchio creasolo illusioni e Claire, arrabbiata, sta quasi per buttarlo, quandointerviene Peter, un ex compagno delle medie, anche lui in possesso di un frammento dello specchio…', 0, 'copertina012.jpeg');
 INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (13, 'Cose più grandi di noi', 0, 'Iniziano gli anni Ottanta, l''aria sta cambiando: Milano lo sa, e lo sa bene anche Marghe, che quando esce dal carcere trova suo padre ad aspettarla. Come una bambina ubbidiente ha seguito il consiglio dell''avvocato, dissociandosi dal gruppo armato in cui si è trovata coinvolta quasi per caso. Ma la scarcerazione non è una liberazione:  pur di uscire ha tradito tutti – compreso il suo Pietro, di cui ha perso le tracce – e ora non sa piú chi è. E cosí, agli arresti domiciliari, scruta la casa di fronte, dove l''altra metà della sua famiglia continua a vivere.', 0, 'copertina013.jpeg');
 INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (14, 'Qualcosa c’inventeremo', 0, 'Gli adulti la chiamano "la situazione": la professoressa Mavaldi, zio Eugenio, persino quello spostato dello zio Gil. La situazione è che Mirko e Tommaso Turriani, orfani da  pochi mesi, affidati allo zio residente a Pavia, non hanno nessuna intenzione di lasciare la loro casa di Milano. Il prezzo più alto per restare da soli sono certi di averlo già pagato, e adesso rigare dritto è l''unico modo per andare avanti. Solo che la vita, loro lo sanno bene, non sempre è d''accordo con noi su quello che ci spetta. E quando  Mirko decide di mentire per andare a Madrid a vedere la finale di Champions,per andarci con Greta, per passare una notte con lei non può immaginare di aver dato il via  a un conto allarovescia, una valanga che rischierà di travolgere tutti.', 0, 'copertina014.jpeg');
 INSERT INTO GAL_libri (id, titolo, film, sinossi, mlol, urlCopertina) VALUES (15, 'Melody', 0, 'Melody è la più intelligente della scuola, ma nessuno lo sa. Quasi tutti ritengono che non abbia alcuna capacità di apprendimento. Se solo lei potesse dire che cosa pensa e che cosa sa... Ma non può. Perché Melody non può parlare. Non può camminare. Non può scrivere. Finché un giorno non scopre qualcosa che potrebbe  permetterle diparlare, per la prima volta nella sua vita', 0, 'copertina015.jpeg');
@@ -2141,1415 +2141,1436 @@ INSERT IGNORE INTO GAL_libriConParoleChiave (idLibro, idParolaChiave)
 SELECT 192, id FROM GAL_paroleChiave WHERE parola = 'INDAGINE';
 
 -- duplicazione di parola chiave 'AMORE'
-UPDATE gal_libriconparolechiave SET idParolaChiave = 1 WHERE id = 521;
-DELETE FROM gal_parolechiave WHERE id = 299;
+UPDATE GAL_libriConParoleChiave SET idParolaChiave = 1 WHERE id = 521;
+DELETE FROM GAL_paroleChiave WHERE id = 299;
 
-UPDATE gal_libriconparolechiave SET idParolaChiave = 1 WHERE id = 568;
-DELETE FROM gal_parolechiave WHERE id = 329;
+UPDATE GAL_libriConParoleChiave SET idParolaChiave = 1 WHERE id = 568;
+DELETE FROM GAL_paroleChiave WHERE id = 329;
 
 -- duplicazione di parola chiave 'CRESCITA'
-UPDATE gal_libriconparolechiave SET idParolaChiave = 6 WHERE id = 525;
-DELETE FROM gal_parolechiave WHERE id = 301;
+UPDATE GAL_libriConParoleChiave SET idParolaChiave = 6 WHERE id = 525;
+DELETE FROM GAL_paroleChiave WHERE id = 301;
 
 -- duplicazione di parola chiave 'PRIMI AMORI'
-UPDATE gal_libriconparolechiave SET idParolaChiave = 11 WHERE id = 672;
-UPDATE gal_libriconparolechiave SET idParolaChiave = 11 WHERE id = 753;
-DELETE FROM gal_parolechiave WHERE id = 382;
+UPDATE GAL_libriConParoleChiave SET idParolaChiave = 11 WHERE id = 672;
+UPDATE GAL_libriConParoleChiave SET idParolaChiave = 11 WHERE id = 753;
+DELETE FROM GAL_paroleChiave WHERE id = 382;
 
 -- duplicazione di parola chiave 'SEPARAZIONE'
-UPDATE gal_libriconparolechiave SET idParolaChiave = 5 WHERE id = 549;
-DELETE FROM gal_parolechiave WHERE id = 317;
+UPDATE GAL_libriConParoleChiave SET idParolaChiave = 5 WHERE id = 549;
+DELETE FROM GAL_paroleChiave WHERE id = 317;
 
 -- cancellazione degli autori duplicati 
-DELETE FROM gal_autori WHERE id IN (175, 177, 139, 133, 169, 57, 172);
+DELETE FROM GAL_autori WHERE id IN (175, 177, 139, 133, 169, 57, 172);
 
 -- 1. "Il volo di Alice" – Zita Dazzi
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il volo di Alice'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Zita Dazzi')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il volo di Alice'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Zita Dazzi')
 );
 
 -- 2. "Red" – Kerstin Gier
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Red'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Kerstin Gier')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Red'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Kerstin Gier')
 );
 
 -- 3. "Ragazzi selvaggi" – Luca Azzolini
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Ragazzi selvaggi'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Luca Azzolini')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Ragazzi selvaggi'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Luca Azzolini')
 );
 
 -- 4. "Leviathan" – Scott Westerfeld
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Leviathan'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Scott Westerfeld')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Leviathan'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Scott Westerfeld')
 );
 
 -- 5. "Nodi al pettine" – Marie-Aude Murail
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Nodi al pettine'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Marie-Aude Murail')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Nodi al pettine'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Marie-Aude Murail')
 );
 
 -- 6. "Oh, boy" – Marie-Aude Murail
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Oh, boy'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Marie-Aude Murail')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Oh, boy'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Marie-Aude Murail')
 );
 
 -- 7. "Fat boy swim" – Catherine Forde
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Fat boy swim'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Catherine Forde')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Fat boy swim'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Catherine Forde')
 );
 
 -- 8. "Il principe della nebbia" – Ruiz Zafon Carlos
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il principe della nebbia'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Ruiz Zafon Carlos')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il principe della nebbia'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Ruiz Zafon Carlos')
 );
 
 -- 9. "Le luci di settembre" – Ruiz Zafon Carlos
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Le luci di settembre'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Ruiz Zafon Carlos')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Le luci di settembre'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Ruiz Zafon Carlos')
 );
 
 -- 10. "L’erede di Hastur" – Marion Zimmer Bradley
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’erede di Hastur'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Marion Zimmer Bradley')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’erede di Hastur'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Marion Zimmer Bradley')
 );
 
 -- 11. "Sempre tornare" – Daniele Mencarelli
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Sempre tornare'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Daniele Mencarelli')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Sempre tornare'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Daniele Mencarelli')
 );
 
 -- 12. "Lo specchio dei desideri" – Jonathan Coe
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Lo specchio dei desideri'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Jonathan Coe')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Lo specchio dei desideri'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Jonathan Coe')
 );
 
 -- 13. "Cose più grandi di noi" – Scianna Giorgio
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Cose più grandi di noi'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Scianna Giorgio')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Cose più grandi di noi'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Scianna Giorgio')
 );
 
 -- 14. "Qualcosa c’inventeremo" – Scianna Giorgio
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Qualcosa c’inventeremo'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Scianna Giorgio')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Qualcosa c’inventeremo'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Scianna Giorgio')
 );
 
 -- 15. "Melody" – Sharon M. Draper
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Melody'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Sharon M. Draper')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Melody'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Sharon M. Draper')
 );
 
 -- 16. "Stardust" – Neil Gaiman
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Stardust'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Neil Gaiman')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Stardust'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Neil Gaiman')
 );
 
 -- 17. "Il figlio del cimitero" – Neil Gaiman
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il figlio del cimitero'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Neil Gaiman')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il figlio del cimitero'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Neil Gaiman')
 );
 
 -- 18. "Nessun dove" – Neil Gaiman
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Nessun dove'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Neil Gaiman')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Nessun dove'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Neil Gaiman')
 );
 
 
 
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Vivavoce'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Ferrara Antonio')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Vivavoce'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Ferrara Antonio')
 );
 
 -- 20. "A casa tutto bene" – Ferrara Antonio
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'A casa tutto bene'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Ferrara Antonio')
+    (SELECT id FROM GAL_libri WHERE titolo = 'A casa tutto bene'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Ferrara Antonio')
 );
 
 -- 21
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Ladra di jeans'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Facchini Giuliana')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Ladra di jeans'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Facchini Giuliana')
 );
 
 -- 22. "Il segreto del Grace college" – Krystyna Kuhn
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il segreto del Grace college'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Krystyna Kuhn')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il segreto del Grace college'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Krystyna Kuhn')
 );
 
 -- 23. "Cambio di stagione" – Nanetti Angela
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Cambio di stagione'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Nanetti Angela')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Cambio di stagione'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Nanetti Angela')
 );
 
 -- 24
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'I randagi'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Nanetti Angela')
+    (SELECT id FROM GAL_libri WHERE titolo = 'I randagi'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Nanetti Angela')
 );
 	
 -- 25
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La ragazza con le scarpe di tela'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Heurtier Annelise')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La ragazza con le scarpe di tela'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Heurtier Annelise')
 );
 
 -- 26
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’età dei sogni'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Sénéchal Jean Francois')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’età dei sogni'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Sénéchal Jean Francois')
 );
 
 
 -- 28. "Amici" - Kazumi Yumoto
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Amici'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Kazumi Yumoto')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Amici'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Kazumi Yumoto')
 );
 
 -- 29. "Poster girl" – Roth Veronica
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Poster girl'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Roth Veronica')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Poster girl'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Roth Veronica')
 );
 
 -- 30. "L’onda" – Strasser Todd
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’onda'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Strasser Todd')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’onda'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Strasser Todd')
 );
 
 -- 31. "La lunga vita di Marianna Ucria" – Maraini Dacia
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     31,
-    (SELECT id FROM gal_autori WHERE nominativo = 'Maraini Dacia')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Maraini Dacia')
 );
 
 -- 32. "La collina" – Delogu Andrea
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La collina'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Delogu Andrea')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La collina'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Delogu Andrea')
 );
 
 -- 33. "La Compagnia dei Celestini" – Benni Stefano
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La Compagnia dei Celestini'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Benni Stefano')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La Compagnia dei Celestini'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Benni Stefano')
 );
 
 -- 34. "Pomodori verdi fritti…" – Fannie Flagg
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Pomodori verdi fritti…'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Flagg Fannie')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Pomodori verdi fritti…'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Flagg Fannie')
 );
 
 -- 35. "Monaco" – Harris Robert
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Monaco'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Harris Robert')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Monaco'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Harris Robert')
 );
 
 -- 36. "Abbandonare un gatto" – Murakami Haruki
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Abbandonare un gatto'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Murakami Haruki')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Abbandonare un gatto'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Murakami Haruki')
 );
 
 
 -- 37 "La sfida" – Boyne John
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La sfida'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Boyne John')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La sfida'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Boyne John')
 );
 
 -- 38. "Book jumpers" – Glaeser Mechthild
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Book jumpers'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Glaeser Mechthild')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Book jumpers'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Glaeser Mechthild')
 );
 
 -- 39. "La mia vita secondo me" – Carey Anna
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La mia vita secondo me'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Carey Anna')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La mia vita secondo me'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Carey Anna')
 );
 
 -- 40
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Bambini di cristallo'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Ohlsson Kristina')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Bambini di cristallo'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Ohlsson Kristina')
 );
 
 -- 41. "La classe" – Dalcher Christina
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La classe'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Dalcher Christina')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La classe'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Dalcher Christina')
 );
 
 -- 42. "La leggenda di Scarlett&Browne" – Stroud Jonathan
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La leggenda di Scarlett&Browne'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Stroud Jonathan')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La leggenda di Scarlett&Browne'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Stroud Jonathan')
 );
 
 -- 43. "L’amuleto di Samarcanda" – Stroud Jonathan
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’amuleto di Samarcanda'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Stroud Jonathan')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’amuleto di Samarcanda'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Stroud Jonathan')
 );
 
 -- 44. "L’allieva" – Gazzola Alessia
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’allieva'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Gazzola Alessia')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’allieva'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Gazzola Alessia')
 );
 
 -- 45. "La scatola dei bottoni di Gwendy" – King Stephen
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La scatola dei bottoni di Gwendy'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'King Stephen')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La scatola dei bottoni di Gwendy'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'King Stephen')
 );
 
 -- 46. "Carrie" – King Stephen
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Carrie'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'King Stephen')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Carrie'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'King Stephen')
 );
 
 -- 47. "Stagioni diverse" – King Stephen
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Stagioni diverse'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'King Stephen')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Stagioni diverse'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'King Stephen')
 );
 
 -- 48. "I viaggi di Daniel Ascher" – Lévy Bertherat Déborah
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'I viaggi di Daniel Ascher'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Lévy Bertherat Déborah')
+    (SELECT id FROM GAL_libri WHERE titolo = 'I viaggi di Daniel Ascher'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Lévy Bertherat Déborah')
 );
 
 -- 49. "Il sole a mezzanotte" – Cook Trish
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il sole a mezzanotte'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Cook Trish')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il sole a mezzanotte'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Cook Trish')
 );
 
 -- 50. "Fake falsi profili" – Merenda Adriana
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Fake falsi profili'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Merenda Adriana')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Fake falsi profili'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Merenda Adriana')
 );
 
 
 
 -- 51. "Un’estate da morire" – Lowry Lois
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Un’estate da morire'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Lowry Lois')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Un’estate da morire'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Lowry Lois')
 );
 
 -- 52. "The giver Il donatore" – Lowry Lois
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     52,
-    (SELECT id FROM gal_autori WHERE nominativo = 'Lowry Lois')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Lowry Lois')
 );
 
 -- 53. "L’albero delle bugie" – Hardinge Frances
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’albero delle bugie'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Hardinge Frances')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’albero delle bugie'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Hardinge Frances')
 );
 
 -- 54. "La voce delle ombre" – Hardinge Frances
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La voce delle ombre'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Hardinge Frances')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La voce delle ombre'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Hardinge Frances')
 );
 
 -- 55. "Domani interrogo" – Cenciarelli Gaja
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Domani interrogo'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Cenciarelli Gaja')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Domani interrogo'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Cenciarelli Gaja')
 );
 
 -- 56. "Nelle terre selvagge" – Paulsen Gary
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Nelle terre selvagge'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Paulsen Gary')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Nelle terre selvagge'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Paulsen Gary')
 );
 
 -- 57. "Sal" – Kitson Mick
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Sal'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Kitson Mick')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Sal'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Kitson Mick')
 );
 
 -- 58. "Le reginette" – Beauvais Clémentine
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Le reginette'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Beauvais Clémentine')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Le reginette'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Beauvais Clémentine')
 );
 
 -- 59. "Annus mirabilis" – Brooks Geraldine
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Annus mirabilis'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Brooks Geraldine')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Annus mirabilis'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Brooks Geraldine')
 );
 
 -- 60. "Iboy" – Brooks Kevin
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Iboy'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Brooks Kevin')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Iboy'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Brooks Kevin')
 );
 
 -- -------------------------------------------------------------------------
-update gal_libri set titolo='L’estate del coniglio nero' where id=61;
-update gal_libri set sinossi='È un’estate torrida e Pete ha già passato diverse settimane senza fare altro che ciondolare per casa. Fino a quando una telefonata gli cambia la vita per sempre. È Nicole, gli chiede di vedersi. Presto si separeranno, ognuno per la propria strada, il college, Parigi... Sarebbe bello incontrarsi per l’ultima volta con il gruppo dei vecchi amici, solo loro quattro: Pete, Nicole, Eric e Pauly. Pete le chiede di Raymond, anche lui è un vecchio amico, fa parte del gruppo. È vero, è un tipo strano, sembra vivere in un mondo tutto suo al cui centro c’è un coniglio nero; ma Pete gli è molto legato e vuole che sia con loro. Quella notte, però, quando si trovano al luna park, Raymond scompare. E anche Stella Ross, una ragazza del loro liceo diventata famosa. Tutti pensano che i due eventi siano collegati, che Raymond lo strano sia il colpevole. Pete vuole dimostrare a ogni costo che si sbagliano, ma quando segreti, rancori e vecchie gelosie mettono gli amici uno contro l’altro, anche le sue certezze cominciano a incrinarsi' where id=61;
+update GAL_libri set titolo='L’estate del coniglio nero' where id=61;
+update GAL_libri set sinossi='È un’estate torrida e Pete ha già passato diverse settimane senza fare altro che ciondolare per casa. Fino a quando una telefonata gli cambia la vita per sempre. È Nicole, gli chiede di vedersi. Presto si separeranno, ognuno per la propria strada, il college, Parigi... Sarebbe bello incontrarsi per l’ultima volta con il gruppo dei vecchi amici, solo loro quattro: Pete, Nicole, Eric e Pauly. Pete le chiede di Raymond, anche lui è un vecchio amico, fa parte del gruppo. È vero, è un tipo strano, sembra vivere in un mondo tutto suo al cui centro c’è un coniglio nero; ma Pete gli è molto legato e vuole che sia con loro. Quella notte, però, quando si trovano al luna park, Raymond scompare. E anche Stella Ross, una ragazza del loro liceo diventata famosa. Tutti pensano che i due eventi siano collegati, che Raymond lo strano sia il colpevole. Pete vuole dimostrare a ogni costo che si sbagliano, ma quando segreti, rancori e vecchie gelosie mettono gli amici uno contro l’altro, anche le sue certezze cominciano a incrinarsi' where id=61;
 -- ----------------------------------------------------------------------------
 
 -- 61. "L’estate del coniglio nero" – Brooks Kevin
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’estate del coniglio nero'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Brooks Kevin')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’estate del coniglio nero'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Brooks Kevin')
 );
 
 -- 62. "L’incubo di Hill House" – Shirley Jackson
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’incubo di Hill House'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Shirley Jackson')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’incubo di Hill House'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Shirley Jackson')
 );
 
 -- 63. "Bella mia" – Di Pietrantonio Donatella
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Bella mia'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Di Pietrantonio Donatella')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Bella mia'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Di Pietrantonio Donatella')
 );
 
 --
-delete from gal_libri where id=193;
+delete from GAL_libri where id=193;
 --
 
 -- 64. "L’Arminuta" – Di Pietrantonio Donatella
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’Arminuta'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Di Pietrantonio Donatella')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’Arminuta'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Di Pietrantonio Donatella')
 );
 
 -- 65. "La diseducazione di Cameron Post" – Danforth Emily
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (65),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Danforth Emily')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Danforth Emily')
 );
 
 -- 66. "Carne da macello" – Dawson Juno
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Carne da macello'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Dawson Juno')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Carne da macello'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Dawson Juno')
 );
 
 -- 67. "La strada nell’ombra" – Donnelly Jennifer
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La strada nell’ombra'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Donnelly Jennifer')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La strada nell’ombra'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Donnelly Jennifer')
 );
 
 -- 68. "Una voce dal lago" – Donnelly Jennifer
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Una voce dal lago'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Donnelly Jennifer')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Una voce dal lago'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Donnelly Jennifer')
 );
 
 -- 69. "Le emozioni difettose" – Halse Anderson Laurie
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Le emozioni difettose'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Halse Anderson Laurie')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Le emozioni difettose'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Halse Anderson Laurie')
 );
 
 -- 70. "Speak le parole non dette" – Halse Anderson Laurie
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (70),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Halse Anderson Laurie')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Halse Anderson Laurie')
 );
 
 -- 71. "Febbre" – Halse Anderson Laurie
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Febbre'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Halse Anderson Laurie')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Febbre'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Halse Anderson Laurie')
 );
 
 -- 72. "Rebel: il deserto in fiamme" – Hamilton Alwyn
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Rebel: il deserto in fiamme'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Hamilton Alwyn')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Rebel: il deserto in fiamme'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Hamilton Alwyn')
 );
 
 -- 73. "Ogni riferimento è puramente casuale" – Manzini Antonio
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Ogni riferimento è puramente casuale'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Manzini Antonio')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Ogni riferimento è puramente casuale'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Manzini Antonio')
 );
 
 -- 74. "L’uomo delle castagne" – Sveistrup Soren
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’uomo delle castagne'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Sveistrup Soren')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’uomo delle castagne'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Sveistrup Soren')
 );
 
 -- 75. "V2" – Harris Robert
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'V2'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Harris Robert')
+    (SELECT id FROM GAL_libri WHERE titolo = 'V2'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Harris Robert')
 );
 
 -- 76. "Pompei" – Harris Robert
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Pompei'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Harris Robert')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Pompei'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Harris Robert')
 );
 
 --
-update gal_libri set titolo = 'Se l’acqua ride' where id=77;
+update GAL_libri set titolo = 'Se l’acqua ride' where id=77;
 --
 
 -- 77. "Se l’acqua ride" – Malaguti Paolo
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Se l’acqua ride'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Malaguti Paolo')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Se l’acqua ride'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Malaguti Paolo')
 );
 
 -- 78. "Il rogo della Repubblica" – Molesini Andrea
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il rogo della Repubblica'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Molesini Andrea')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il rogo della Repubblica'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Molesini Andrea')
 );
 
 -- 79. "La clinica Riposo&Pace" – Recami Francesco
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La clinica Riposo&Pace'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Recami Francesco')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La clinica Riposo&Pace'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Recami Francesco')
 );
 
 -- 80. "Le madri non dormono mai" – Marone Lorenzo
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Le madri non dormono mai'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Marone Lorenzo')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Le madri non dormono mai'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Marone Lorenzo')
 );
 
 -- 81. "Camera con vista" – Forster Edward Morgan
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (81),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Forster Edward Morgan')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Forster Edward Morgan')
 );
 
 -- 82. "La ragazza della palude" – Owens Delia
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (82),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Owens Delia')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Owens Delia')
 );
 
 -- 83. "La sottile linea scura" – Lansdale Joe R.
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La sottile linea scura'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Lansdale Joe R.')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La sottile linea scura'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Lansdale Joe R.')
 );
 
 -- 84. "Sei come sei" – Mazzucco Melania
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Sei come sei'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Mazzucco Melania')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Sei come sei'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Mazzucco Melania')
 );
 
 -- 85. "Una sottile linea rosa" – Strada Annalisa
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Una sottile linea rosa'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Strada Annalisa')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Una sottile linea rosa'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Strada Annalisa')
 );
 
 -- 86. "La masseria delle allodole" – Arslan Antonia
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (86),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Arslan Antonia')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Arslan Antonia')
 );
 
 -- 87. "Io sono leggenda" – Matheson Richard
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (87),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Matheson Richard')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Matheson Richard')
 );
 
 -- 88. "NEO la caduta del sole di ferro" – Bussi Michel
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'NEO la caduta del sole di ferro'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Bussi Michel')
+    (SELECT id FROM GAL_libri WHERE titolo = 'NEO la caduta del sole di ferro'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Bussi Michel')
 );
 
 -- 89. "Eleanor Oliphant sta benissimo" – Honeyman Gail
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (89),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Honeyman Gail')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Honeyman Gail')
 );
 
 -- 90. "I custodi di Slade house" – Mitchell David
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'I custodi di Slade house'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Mitchell David')
+    (SELECT id FROM GAL_libri WHERE titolo = 'I custodi di Slade house'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Mitchell David')
 );
 
 -- 91. "Il mistero del London Eye" – Dowd Sioban
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il mistero del London Eye'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Dowd Sioban')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il mistero del London Eye'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Dowd Sioban')
 );
 
 -- 92. "Il riscatto di Dond" – Dowd Sioban
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il riscatto di Dond'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Dowd Sioban')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il riscatto di Dond'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Dowd Sioban')
 );
 
 -- 93. "Fiore di neve e il ventaglio segreto" – See Lisa
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Fiore di neve e il ventaglio segreto'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'See Lisa')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Fiore di neve e il ventaglio segreto'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'See Lisa')
 );
 
 -- 94. "Aggiustare l’universo" – Romagnolo Raffaella
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Aggiustare l’universo'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Romagnolo Raffaella')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Aggiustare l’universo'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Romagnolo Raffaella')
 );
 
 -- 95. "Sotto un sole diverso" – Lothar Ernst
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Sotto un sole diverso'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Lothar Ernst')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Sotto un sole diverso'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Lothar Ernst')
 );
 
 -- 96. "La cacciatrice" – Quinn Kate
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La cacciatrice'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Quinn Kate')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La cacciatrice'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Quinn Kate')
 );
 
 -- 97. "A fuoco lento" – Kerr Philip
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'A fuoco lento'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Kerr Philip')
+    (SELECT id FROM GAL_libri WHERE titolo = 'A fuoco lento'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Kerr Philip')
 );
 
 -- 98. "Le rive della collera" – Laurent Caroline
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Le rive della collera'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Laurent Caroline')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Le rive della collera'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Laurent Caroline')
 );
 
 -- 99. "La monaca" – Agnello Hornby Simonetta
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La monaca'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Agnello Hornby Simonetta')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La monaca'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Agnello Hornby Simonetta')
 );
 
 -- 100. "La vergine napoletana" – Pederiali Giuseppe
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La vergine napoletana'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Pederiali Giuseppe')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La vergine napoletana'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Pederiali Giuseppe')
 );
 
 -- 101. "The Help" – Stockett Kathryne
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (101),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Stockett Kathryne')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Stockett Kathryne')
 );
 
 -- 102. "La canzone di Achille" – Miller Madeline
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La canzone di Achille'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Miller Madeline')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La canzone di Achille'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Miller Madeline')
 );
 
 -- 103. "Il gigante sepolto" – Ishiguro Kazuo
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il gigante sepolto'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Ishiguro Kazuo')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il gigante sepolto'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Ishiguro Kazuo')
 );
 
 -- 104. "Piccoli atti di misericordia" – Lehane Dennis
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Piccoli atti di misericordia'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Lehane Dennis')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Piccoli atti di misericordia'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Lehane Dennis')
 );
 
 -- 105. "Terra crudele" – Weisgarber Ann
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Terra crudele'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Weisgarber Ann')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Terra crudele'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Weisgarber Ann')
 );
 
 -- 106. "Longbourn house" – Backer Jo
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Longbourn house'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Backer Jo')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Longbourn house'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Backer Jo')
 );
 
 -- 107. "Il viaggio della strega bambina" – Rees Celia
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il viaggio della strega bambina'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Rees Celia')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il viaggio della strega bambina'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Rees Celia')
 );
 
 -- 108. "Pirate" – Rees Celia
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Pirate'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Rees Celia')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Pirate'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Rees Celia')
 );
 
 -- 109. "Il braccialetto" – Levi Lia
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il braccialetto'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Levi Lia')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il braccialetto'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Levi Lia')
 );
 
 -- 110. "I figli del lupo" – Dowswell Paul
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'I figli del lupo'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Dowswell Paul')
+    (SELECT id FROM GAL_libri WHERE titolo = 'I figli del lupo'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Dowswell Paul')
 );
 
 -- 111. "Olympia indagine ai giochi ellenici" – Comastri Montanari Danila
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Olympia indagine ai giochi ellenici'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Comastri Montanari Danila')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Olympia indagine ai giochi ellenici'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Comastri Montanari Danila')
 );
 
 
 
 -- 112. "Più veloce del vento" – Percivale Tommaso
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Più veloce del vento'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Percivale Tommaso')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Più veloce del vento'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Percivale Tommaso')
 );
 
 -- 113. "L’ultimo arrivato" – Balzano Marco
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’ultimo arrivato'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Balzano Marco')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’ultimo arrivato'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Balzano Marco')
 );
 
 -- 114. "Timeline" – Chrichton Michael
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (114),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Chrichton Michael')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Chrichton Michael')
 );
 
 -- 115. "Aristotele detective" – Doody Margareth
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Aristotele detective'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Doody Margareth')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Aristotele detective'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Doody Margareth')
 );
 
 -- 116. "Aristotele e l favola dei 2 corvi bianchi" – Doody Margareth
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Aristotele e l favola dei 2 corvi bianchi'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Doody Margareth')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Aristotele e l favola dei 2 corvi bianchi'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Doody Margareth')
 );
 
 -- 117. "L’ospite" – Meyer Stephenie
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’ospite'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Meyer Stephenie')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’ospite'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Meyer Stephenie')
 );
 
 -- 118. "Dormire in un mare di stelle" – Paolini Christopher
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Dormire in un mare di stelle'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Paolini Christopher')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Dormire in un mare di stelle'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Paolini Christopher')
 );
 
 -- 119. "Blackwater v.1 La piena" – McDowell Michael
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Blackwater v.1 La piena'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'McDowell Michael')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Blackwater v.1 La piena'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'McDowell Michael')
 );
 
 -- 120. "La canzone di Orfeo" – Almond David
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La canzone di Orfeo'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Almond David')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La canzone di Orfeo'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Almond David')
 );
 
 -- 121. "Dark web" – Magnoli Sara
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Dark web'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Magnoli Sara')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Dark web'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Magnoli Sara')
 );
 
 -- 122. "Mosquitoland" – Arnold David
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Mosquitoland'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Arnold David')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Mosquitoland'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Arnold David')
 );
 
 -- 132. "Tutte le bugie che ho detto" – Blundell Judy
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Tutte le bugie che ho detto'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Blundell Judy')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Tutte le bugie che ho detto'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Blundell Judy')
 );
 
 -- 124. "Colpa delle stelle" – Green John
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (124),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Green John')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Green John')
 );
 
 
 -- 125. Teorema Catherine – Green John
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Teorema Catherine'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Green John')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Teorema Catherine'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Green John')
 );
 
 -- 126. La legione scomparsa – Sutcliff Rosemary
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La legione scomparsa'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Sutcliff Rosemary')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La legione scomparsa'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Sutcliff Rosemary')
 );
 
 -- 127. Un anno terribile – Fante John
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Un anno terribile'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Fante John')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Un anno terribile'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Fante John')
 );
 
 -- 128. Io Emanuela – Strada Annalisa
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Io Emanuela'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Strada Annalisa')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Io Emanuela'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Strada Annalisa')
 );
 
 -- 129. Agata e la pietra nera – LeGuin Ursula
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Agata e la pietra nera'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'LeGuin Ursula')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Agata e la pietra nera'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'LeGuin Ursula')
 );
 
 -- 130. Zio vampiro – Grant Cynthia D.
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Zio vampiro'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Grant Cynthia D.')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Zio vampiro'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Grant Cynthia D.')
 );
 
 -- 131. I segreti di Sunnylakes – Vesper Inga
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'I segreti di Sunnylakes'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Vesper Inga')
+    (SELECT id FROM GAL_libri WHERE titolo = 'I segreti di Sunnylakes'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Vesper Inga')
 );
 
 -- 132. La figlia del mercante di seta – Gardner Sally
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La figlia del mercante di seta'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Gardner Sally')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La figlia del mercante di seta'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Gardner Sally')
 );
 
 -- 133. Il ragazzo del fiume – Bowler Tim
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il ragazzo del fiume'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Bowler Tim')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il ragazzo del fiume'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Bowler Tim')
 );
 
 -- 134. Tenebre e ossa – Bardugo Leigh
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Tenebre e ossa'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Bardugo Leigh')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Tenebre e ossa'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Bardugo Leigh')
 );
 
 -- 135. I ribelli di giugno – Antonini Christian
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'I ribelli di giugno'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Antonini Christian')
+    (SELECT id FROM GAL_libri WHERE titolo = 'I ribelli di giugno'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Antonini Christian')
 );
 
 -- 136. La strada fredda – Vermot Thibault
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La strada fredda'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Vermot Thibault')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La strada fredda'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Vermot Thibault')
 );
 
 -- 137. Addio, a domani – Efionayi Sabrina
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Addio, a domani'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Efionayi Sabrina')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Addio, a domani'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Efionayi Sabrina')
 );
 
 -- 138. Un viaggio chiamato casa – Stratton Alan
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Un viaggio chiamato casa'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Stratton Alan')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Un viaggio chiamato casa'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Stratton Alan')
 );
 
 -- 139. Fangirl – Rowell Rainbow
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Fangirl'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Rowell Rainbow')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Fangirl'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Rowell Rainbow')
 );
 
 -- 140. Pesche – Anderson Jodi Lynn
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Pesche'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Anderson Jodi Lynn')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Pesche'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Anderson Jodi Lynn')
 );
 
 -- 141. Il castello di Otranto – Walpole Horace
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il castello di Otranto'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Walpole Horace')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il castello di Otranto'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Walpole Horace')
 );
 
 -- 142. Fidanzati dell’inverno – Dabos Christelle
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Fidanzati dell’inverno'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Dabos Christelle')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Fidanzati dell’inverno'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Dabos Christelle')
 );
 
-update gal_autori set nominativo = 'Lore Pittacus' where id=117;
+update GAL_autori set nominativo = 'Lore Pittacus' where id=117;
 
 -- 143. Sono il numero quattro – Lore Pittacus
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (143),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Lore Pittacus')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Lore Pittacus')
 );
 
 -- 144. Ogni giorno – Levithan David
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Ogni giorno'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Levithan David')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Ogni giorno'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Levithan David')
 );
 
 -- 145. Te la sei cercata – O’Neill Louise
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Te la sei cercata'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'O’Neill Louise')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Te la sei cercata'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'O’Neill Louise')
 );
 
-update gal_libri set titolo='Il futuro' where id=146;
+update GAL_libri set titolo='Il futuro' where id=146;
 
 -- 146. Il futuro – Alderman Naomi
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il futuro'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Alderman Naomi')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il futuro'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Alderman Naomi')
 );
 
 -- 147. Il diario di uno sfigato innamorato – Wizner Jake
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il diario di uno sfigato innamorato'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Wizner Jake')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il diario di uno sfigato innamorato'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Wizner Jake')
 );
 
 -- 148. Tra cielo e terra – McLain Paula
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Tra cielo e terra'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'McLain Paula')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Tra cielo e terra'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'McLain Paula')
 );
 
 -- 149. Come ogni cosa in questo paese – McCann Colum
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Come ogni cosa in questo paese'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'McCann Colum')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Come ogni cosa in questo paese'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'McCann Colum')
 );
 
 -- 150. Gli undici inganni – Gold Robert
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Gli undici inganni'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Gold Robert')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Gli undici inganni'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Gold Robert')
 );
 
 -- 151. Le montagne ghiacciate di Kolyma – Davidson Lionel
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Le montagne ghiacciate di Kolyma'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Davidson Lionel')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Le montagne ghiacciate di Kolyma'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Davidson Lionel')
 );
 
 
 -- 152. Junk storia d’amore e perdizione – Burgess Melvin
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Junk storia d’amore e perdizione'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Burgess Melvin')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Junk storia d’amore e perdizione'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Burgess Melvin')
 );
 
 -- 153. Febbre gialla – Lucarelli Carlo
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Febbre gialla'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Lucarelli Carlo')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Febbre gialla'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Lucarelli Carlo')
 );
 
 -- 154. Ombre sulla sabbia – Chambers Aidan
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Ombre sulla sabbia'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Chambers Aidan')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Ombre sulla sabbia'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Chambers Aidan')
 );
 
 -- 155. The frozen boy – Sgardoli Guido
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'The frozen boy'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Sgardoli Guido')
+    (SELECT id FROM GAL_libri WHERE titolo = 'The frozen boy'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Sgardoli Guido')
 );
 
 -- 156. La leggenda di Otori – Hearn Lian
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La leggenda di Otori'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Hearn Lian')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La leggenda di Otori'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Hearn Lian')
 );
 
 -- 157. Ci sei solo tu – Camerini Valentina
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Ci sei solo tu'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Camerini Valentina')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Ci sei solo tu'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Camerini Valentina')
 );
 
 -- 158. Questa non è la fine – Baker Chandler
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Questa non è la fine'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Baker Chandler')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Questa non è la fine'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Baker Chandler')
 );
 
 -- 159. Smart – Slater Kim
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Smart'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Slater Kim')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Smart'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Slater Kim')
 );
 
 -- 160. Coraline – Gaiman Neil
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Coraline'),
+    (SELECT id FROM GAL_libri WHERE titolo = 'Coraline'),
     (13)
 );
 
 -- 161. Cercando l’onda – Vick Christipher
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Cercando l’onda'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Vick Christipher')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Cercando l’onda'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Vick Christipher')
 );
 
 -- 162. Some girls do – Dugan Jennifer
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Some girls do'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Dugan Jennifer')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Some girls do'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Dugan Jennifer')
 );
 
 
 -- 163
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’istante perfetto'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Asher Jay')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’istante perfetto'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Asher Jay')
 );
 
 -- 164
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il solito normalissimo caos'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Creech Sharon')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il solito normalissimo caos'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Creech Sharon')
 );
 
 -- 165
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il mago'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Le Guin Ursula K.')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il mago'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Le Guin Ursula K.')
 );
 
 -- 166
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La febbre zombie'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Ohlsson Kristina')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La febbre zombie'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Ohlsson Kristina')
 );
 
 -- 167
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Carmilla la vampira'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Le Fanu Joseph Sheridan')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Carmilla la vampira'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Le Fanu Joseph Sheridan')
 );
 
 -- 168
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Senza dirlo a nessuno'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Scianna Giorgio')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Senza dirlo a nessuno'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Scianna Giorgio')
 );
 
 
 -- 169. Gli anni di luce – Dazzi Zita
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Gli anni di luce'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Zita Dazzi')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Gli anni di luce'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Zita Dazzi')
 );
 
 -- 170. L’ora di pietra – Oggero Margherita
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'L’ora di pietra'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Oggero Margherita')
+    (SELECT id FROM GAL_libri WHERE titolo = 'L’ora di pietra'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Oggero Margherita')
 );
 
 -- 171. Il principe e la sarta – Wang Jen
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il principe e la sarta'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Wang Jen')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il principe e la sarta'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Wang Jen')
 );
 
 -- 173. Speak il graphic – Carroll, Emily-Halse Anderson Laurie
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Speak il graphic'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Carroll Emily')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Speak il graphic'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Carroll Emily')
 );
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Speak il graphic'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Halse Anderson Laurie')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Speak il graphic'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Halse Anderson Laurie')
 );
 
 -- 174. Fangirl il manga v. 1-2 – Maggs, Sam-Nam, Gabi-Rowell, Rainbow
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Fangirl il manga v. 1-2'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Sam Maggs')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Fangirl il manga v. 1-2'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Sam Maggs')
 );
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Fangirl il manga v. 1-2'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Rowell Rainbow')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Fangirl il manga v. 1-2'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Rowell Rainbow')
 );
 
 -- 175. Primo amore – Panetta, Kevin-Ganucheau, Savannah
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Primo amore'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Kevin Panetta')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Primo amore'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Kevin Panetta')
 );
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Primo amore'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Savannah Ganucheau')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Primo amore'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Savannah Ganucheau')
 );
 
 -- 176. Assassinio sull’Orient Express – Von Eckartsberg, Benjamin- Chaiko
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Assassinio sull’Orient Express'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Benjamin Von Eckartsberg')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Assassinio sull’Orient Express'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Benjamin Von Eckartsberg')
 );
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Assassinio sull’Orient Express'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Chaiko')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Assassinio sull’Orient Express'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Chaiko')
 );
 
 -- 177. Il cane che guarda le stelle – Takashi Murakami
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il cane che guarda le stelle'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Takashi Murakami')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il cane che guarda le stelle'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Takashi Murakami')
 );
 
 -- 178. Le piccole vittorie – Roy Yvon
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Le piccole vittorie'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Roy Yvon')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Le piccole vittorie'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Roy Yvon')
 );
 
 -- 179
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Menta'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Galli Christian')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Menta'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Galli Christian')
 );
 
 -- 180
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Quartieri lontani'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Taniguchi Jiro')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Quartieri lontani'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Taniguchi Jiro')
 );
 
 -- 181
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Angela Davis'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Pesce Mariapaola')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Angela Davis'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Pesce Mariapaola')
 );
 
 -- 182 
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La guerra di Catherine'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Billet Julia')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La guerra di Catherine'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Billet Julia')
 );
 
 -- 183
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Nera: Claudette Colvin'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Emilie Plateau')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Nera: Claudette Colvin'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Emilie Plateau')
 );
 
 -- 184
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Girotondo'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Rossi Sergio')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Girotondo'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Rossi Sergio')
 );
 
 -- 185
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il porto proibito'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Radice Teresa')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il porto proibito'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Radice Teresa')
 );
 
 -- 186
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La mia ultima estate con Cass'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Crilley Mark')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La mia ultima estate con Cass'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Crilley Mark')
 );
 
 -- 187
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Il buio oltre la siepe'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Fordham Fred')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Il buio oltre la siepe'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Fordham Fred')
 );
 
 -- 188
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La ragazza del mare'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Knox Ostertag Molly')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La ragazza del mare'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Knox Ostertag Molly')
 );
 
 -- 189
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
     (189),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Irène Nemirovsky')
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Irène Nemirovsky')
 );
 
 -- 190
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La cattedrale del mare'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Falcones Ildefonso')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La cattedrale del mare'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Falcones Ildefonso')
 );
 
 -- 191
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'La ragazza nella nebbia'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Carrisi Donato')
+    (SELECT id FROM GAL_libri WHERE titolo = 'La ragazza nella nebbia'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Carrisi Donato')
 );
 
 -- 192
-delete from gal_libri where id = 192;
+delete from GAL_libri where id = 192;
 
 -- 194. 
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Nel mare ci sono i coccodrilli'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Geda Fabio')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Nel mare ci sono i coccodrilli'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Geda Fabio')
 );
-INSERT INTO gal_libriconautori (idLibro, idAutore)
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
 VALUES (
-    (SELECT id FROM gal_libri WHERE titolo = 'Nel mare ci sono i coccodrilli'),
-    (SELECT id FROM gal_autori WHERE nominativo = 'Akbari Enaiatollah')
+    (SELECT id FROM GAL_libri WHERE titolo = 'Nel mare ci sono i coccodrilli'),
+    (SELECT id FROM GAL_autori WHERE nominativo = 'Akbari Enaiatollah')
 );
 
 -- rinomino tutti i file copertina
 UPDATE GAL_libri
 SET urlCopertina = REPLACE(urlCopertina, '.png', '.jpeg')
 WHERE urlCopertina LIKE '%.png';
+
+-- 17/05/2025: Aggiungo a tutti i film un autore vuoto
+
+-- Step 1: seleziona gli ID dei libri in una temporary table
+CREATE TEMPORARY TABLE libri_selezionati AS
+SELECT id FROM GAL_libri WHERE film = 1;
+-- Step 2: inserisci il nuovo autore con nominativo vuoto
+INSERT INTO GAL_autori (nominativo) VALUES ('');
+-- Step 3: ottieni l'ID appena inserito (ultimo autore)
+SET @idNuovoAutore = LAST_INSERT_ID();
+-- Step 4: collega ogni libro selezionato con il nuovo autore
+INSERT INTO GAL_libriConAutori (idLibro, idAutore)
+SELECT id, @idNuovoAutore FROM libri_selezionati;
+-- [Opzionale] elimina la temporary table
+DROP TEMPORARY TABLE IF EXISTS libri_selezionati;
+
+-- 17/05/2025: Collego l'autore 19 al libro con id 27
+insert into GAL_libriConAutori(idLibro, idAutore) value (27,19);
+
+
+

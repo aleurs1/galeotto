@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeotto fu il libro</title>
@@ -30,28 +30,7 @@
     </script> 
 
     <!-- collego lo script per selezionare i libri in base ai valori immessi -->
-    <script src="js/filtralibri.js">
-function filtralibri(event) {
-    alert("ciao");
-    
-    // impediamo il comportamento predefinito del form cioè eseguire uno script php
-    event.preventDefault();
-
-    // prendo un riferimento al mio form
-    const form event.target; 
-
-    // creo un vettore associativo con tutti i campi del form
-    const datiForm = new FormData(form);
-        //datiForm["titolo"]="La divina commedia"
-
-    // convertiamo il mio dataform in una stringa per URL (es "autore=dante&titolo=ciaociao")
-    const queryString = new URLSearchParams(datiForm).toString();
-
-    alert(queryString);
-
-}
-
-    </script>
+    <script src="js/filtralibri.js"></script>
 
     <!-- accesso tramite google -->
     <script src="https://accounts.google.com/gsi/client" async defer></script>
@@ -109,7 +88,7 @@ function filtralibri(event) {
                     </label>
                 </div>
                 <div class="form-check" data-bs-toggle="tooltip" data-bs-placement="right" title="Libro presente su www.medialibrary.it">
-                    <input class="form-check-input" type="checkbox" value="" id="cb_ebook" name="ebook">
+                    <input class="form-check-input" type="checkbox" value="" id="cb_ebook" name="mlol">
                     <label class="form-check-label" for="cb_ebook">
                         MLOL
                     </label>
@@ -132,6 +111,7 @@ function filtralibri(event) {
     <div class="container text-center" id="miniature">
         <script>
             document.getElementById('mioform').addEventListener('submit', filtralibri);
+            document.addEventListener('click', caricaDettagliLibro);
         </script>
         <?php
             
@@ -336,8 +316,10 @@ function filtralibri(event) {
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-      
-    
+    <!-- forzo l'invocazione della funzione eseguita al submit del form -->
+    <script>
+        document.getElementById('mioform').requestSubmit();
+    </script>
 </body>
 
 </html>
