@@ -203,7 +203,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title titoloModaleDettagli" id="modal_dettagliLabel">
-                        Storia di una famiglia e di una impresa - <span>Grimaldi Armatori</span> -
+                        <span id="modaleDettaglioLibro_titolo">Storia di una famiglia e di una  impresa </span> - <span id="modaleDettaglioLibro_autore"> Grimaldi Armatori</span>
                     </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
@@ -212,9 +212,9 @@
                         <!-- riga 1: copertina, sinossi -->
                         <div class="row">
                             <div class="col-4" style="padding-left: 0px;">
-                                <img src="img/copertina3.jpg" class="card-img-top imgDiModaleDettagli " alt="..." >
+                                <img id= "modaleDettaglioLibro_copertina" src="img/copertina3.jpg" class="card-img-top imgDiModaleDettagli " alt="..." >
                             </div>
-                            <div class="col-8 sinossiDiModaleDettagli">
+                            <div class="col-8 sinossiDiModaleDettagli" id="modaleDettaglioLibro_sinossi">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores impedit iure totam
                                 vitae fugiat, animi nobis magnam consequuntur quis ad. Fugiat suscipit, nihil porro fuga
                                 molestias natus eum cum quibusdam.
@@ -227,7 +227,7 @@
                     </div>
                     <!-- riga 2: stelline, tag -->
                     <div class="row mt-3 mb-3">
-                        <div class="col-4 text-center">
+                        <div class="col-4 text-center" style="visibility:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                                 fill="#ffd700">
                                 <path
@@ -254,14 +254,11 @@
                                     d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z" />
                             </svg>
                         </div>
-                        <div class="col-8 text-end">
-                            <span class="badge text-bg-secondary">Lorem</span>
-                            <span class="badge text-bg-secondary">psum</span>
-                            <span class="badge text-bg-secondary">dolor</span>
-                        </div>
+                        <!-- parole chiave -->
+                        <div class="col-8 text-end" id="modaleDettaglioLibro_paroleChiave"></div>
                     </div>
                     <!-- riga 3: commenti -->
-                    <div class="row mt-2">
+                    <div class="row mt-2" style="visibility:hidden">
                         <div class="accordion" id="zonaCommentiMain">
                             <div class="accordion-item">
                               <h2 class="accordion-header">

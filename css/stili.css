@@ -81,12 +81,15 @@ h1.titoloModaleDettagli {
     display: -webkit-box;          /* Utilizzo del modello a box flessibili */
     -webkit-line-clamp: 1;         /* Limita a due righe il testo */
     -webkit-box-orient: vertical;  /* Imposta l'orientamento del box */
-    font-size: 25px;
+    
+}
+h1.titoloModaleDettagli {
+    font-size: 25px; 
 }
 
-h1.titoloModaleDettagli > span {
+h1.titoloModaleDettagli > span#modaleDettaglioLibro_autore {
     font-weight: 100;
-    font-style: italic;    
+    font-style: italic;      
 }
 
 img.imgDiModaleDettagli {

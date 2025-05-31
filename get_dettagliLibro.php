@@ -7,7 +7,7 @@
     
     // definisco la query
         // la prima parte è statica
-        $sql =  "select l.titolo, a.nominativo, l.urlCopertina, l.sinossi";
+        $sql =  "select l.titolo, a.nominativo as autore, l.urlCopertina, l.sinossi";
         $sql .= " from GAL_libri as l, GAL_libriConAutori as lca, GAL_autori as a";
         $sql .= " where l.id=lca.idLibro and lca.idAutore=a.id and l.id=?";
     // preparo ed eseguo la query
@@ -16,6 +16,16 @@
     $stmt->execute([$id]);
     
     // prelevo il risultato e lo codifico in json.
-    $righe  = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $righe  = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    // ora aggiungiamo le parole chiave del libro: cuore###dole###amore
+    $sql="select pc.parola
+          from GAL_libri as l, GAL_paroleChiave as pc, GAL_libriConParoleChiave as lcpc
+          where l.id=? AND l.id=lcpc.idLibro AND lcpc.idParolaChiave=pc.id";
+    $stmtParole = $connessione->prepare($sql);
+    $stmtParole->execute([$id]);
+    $paroleChiave = $stmtParole->fetchAll(PDO::FETCH_COLUMN);
+    $righe['paroleChiave'] = implode("###",$paroleChiave);
+
     echo json_encode($righe);
 ?>

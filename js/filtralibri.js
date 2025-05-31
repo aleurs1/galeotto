@@ -15,7 +15,7 @@ function creaAppendiElemento(padre, tag, attributi) {
 }
 
 function filtralibri(event) {
-    
+
     // impediamo il comportamento predefinito del form cioè eseguire uno script php
     event.preventDefault();
 
@@ -68,17 +68,29 @@ function filtralibri(event) {
 }
 
 function caricaDettagliLibro(event) {
+    
     // prendi un riferimento a me stesso o un mio antenato che abbia la proprietà data-bs-target posta a #modal_dettagli
     const oggettoSuCuiHaCliccato = event.target.closest('[data-bs-target="#modal_dettagli"]');
 
     if (oggettoSuCuiHaCliccato) {
-        const divPadre = oggettoSuCuiHaCliccato.parentNode;
+        const divPadre = oggettoSuCuiHaCliccato.parentNode;     
         const idLibro = divPadre.id;
-        fetch('get_dettagliLibro.php?id=idLibro')
-            .then(response = response.json())
-            .then(data => {
-                alert(data.titolo);
+        fetch('get_dettagliLibro.php?id='+idLibro)
+            .then(response => response.json())
+            .then(data => {                               
+                document.getElementById("modaleDettaglioLibro_autore").textContent = data.autore;
+                document.getElementById("modaleDettaglioLibro_titolo").textContent = data.titolo;
+                document.getElementById("modaleDettaglioLibro_copertina").src="img/copertine/"+data.urlCopertina;
+                document.getElementById("modaleDettaglioLibro_sinossi").textContent = data.sinossi;
+                const divPerParoleChiave = document.getElementById("modaleDettaglioLibro_paroleChiave");
+                divPerParoleChiave.innerHTML='';
+                const vettParoleChiave = data.paroleChiave.split("###");                
+                for (let i=0; i<vettParoleChiave.length; i++) {
+                    const elemento = creaAppendiElemento(divPerParoleChiave, 'span', {class:"badge text-bg-secondary"});
+                    elemento.textContent=vettParoleChiave[i];
+                    divPerParoleChiave.innerHTML += '&nbsp;';
+                }
             });
-
     } 
+            
 }
